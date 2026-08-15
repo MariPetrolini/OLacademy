@@ -28,6 +28,8 @@ Esta versão foi refatorada a partir do projeto V3 para um fluxo **simples, huma
 
 Vídeos reutilizáveis de abertura e conclusão são configurados uma única vez na seção **Vídeos padrão** do Estúdio. Ao criar cada aula, o campo obrigatório **Próxima aula** define o texto variável do encerramento; ele ainda pode ser ajustado antes do render. Consulte `docs/WORKFLOW.md`.
 
+Cada aula possui a etapa **Escolher agentes**, na qual Claude ou Codex pode ser selecionado separadamente para direção, pesquisa, roteiro, revisões, análise de slides, storyboard, voz, timing e QA audiovisual. As escolhas ficam salvas em `agent-config.json` dentro da pasta da aula.
+
 ## Estúdio local
 
 Para usar todo o fluxo por uma interface visual no notebook:

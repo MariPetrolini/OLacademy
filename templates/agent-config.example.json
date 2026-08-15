@@ -1,0 +1,13 @@
+{
+  "direct": "claude",
+  "research": "claude",
+  "script": "claude",
+  "review1": "codex",
+  "slides": "claude",
+  "adapt": "claude",
+  "storyboard": "claude",
+  "review2": "codex",
+  "voice": "claude",
+  "timing": "claude",
+  "audiovisual": "claude"
+}
