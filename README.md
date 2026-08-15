@@ -32,6 +32,8 @@ O formulário **Nova aula** já permite selecionar Claude ou Codex separadamente
 
 ## Estúdio local
 
+No macOS, dê dois cliques em **OL Academy Studio.app** na raiz do projeto. O aplicativo inicia os serviços locais e abre o Estúdio no navegador, sem publicar nada externamente.
+
 Para usar todo o fluxo por uma interface visual no notebook:
 
 ```bash

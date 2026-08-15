@@ -10,3 +10,4 @@ courses/**/voice/generated/
 courses/**/source/original/*.pptx
 courses/**/source/original/*.pdf
 *.log
+.studio-runtime/

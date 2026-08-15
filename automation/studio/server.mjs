@@ -9,12 +9,12 @@ const ROOT=path.resolve(import.meta.dirname,'../..');
 const PORT=Number(process.env.OLACADEMY_API_PORT||4318);
 const MAX_UPLOAD_BYTES=2*1024*1024*1024;
 const MAX_JOB_OUTPUT=2*1024*1024;
-const ALLOWED_ORIGINS=new Set(['http://localhost:3000','http://127.0.0.1:3000','https://ol-academy-studio.bmgvfmhzhk.chatgpt.site']);
+const ALLOWED_ORIGINS=new Set(['http://localhost:3000','http://127.0.0.1:3000']);
 const VIDEO_DEFAULTS_FILE=path.join(ROOT,'config','video-defaults.json');
 const jobs=new Map();
 
 const requestOrigin=(req)=>String(req.headers.origin||'');
-const corsHeaders=(req)=>{const origin=requestOrigin(req);return {'access-control-allow-origin':origin&&ALLOWED_ORIGINS.has(origin)?origin:'http://localhost:3000','access-control-allow-private-network':'true','vary':'Origin'}};
+const corsHeaders=(req)=>{const origin=requestOrigin(req);return {'access-control-allow-origin':origin&&ALLOWED_ORIGINS.has(origin)?origin:'http://localhost:3000','vary':'Origin'}};
 const json=(req,res,status,data)=>{res.writeHead(status,{'content-type':'application/json; charset=utf-8',...corsHeaders(req)});res.end(JSON.stringify(data))};
 const body=async(req)=>{const chunks=[];let size=0;for await(const chunk of req){size+=chunk.length;if(size>2*1024*1024)throw new Error('Dados enviados excedem o limite permitido');chunks.push(chunk)}return JSON.parse(Buffer.concat(chunks).toString('utf8')||'{}')};
 const readJson=(file,fallback={})=>{try{return JSON.parse(fs.readFileSync(file,'utf8'))}catch{return fallback}};
