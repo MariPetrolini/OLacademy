@@ -31,7 +31,7 @@ A abertura padrão é inserida antes do restante da composição e recebe `openi
 
 ## Agentes por aula
 
-Na etapa **Escolher agentes**, cada papel intelectual pode ser atribuído a Claude ou Codex. A configuração é persistida em `agent-config.json` na pasta da aula e consultada novamente sempre que uma etapa é iniciada. O padrão preserva Claude na produção e Codex nas duas revisões técnicas, mas qualquer papel pode ser alterado para uma aula específica. ElevenLabs e Remotion permanecem fixos para geração de voz e renderização.
+No formulário **Nova aula**, cada papel intelectual já pode ser atribuído a Claude ou Codex. A configuração é persistida em `agent-config.json` na pasta da aula e consultada novamente sempre que uma etapa é iniciada. O padrão preserva Claude na produção e Codex nas duas revisões técnicas, mas qualquer papel pode ser alterado antes da criação ou depois, na etapa **Escolher agentes**. ElevenLabs e Remotion permanecem fixos para geração de voz e renderização.
 
 Também é possível parametrizar sem alterar o JSON:
 
