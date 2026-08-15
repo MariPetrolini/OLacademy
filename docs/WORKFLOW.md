@@ -6,6 +6,8 @@ As pausas HUMAN1 e HUMAN2 existem na conversa. Não são verificações criptogr
 
 As alterações feitas pela pessoa revisora no Estúdio são autoritativas. Isso inclui reescrever trechos e apagar seções completas. Ao salvar, o arquivo editado passa a ser a versão oficial, a versão anterior é preservada em `qa/human-edits/` e os agentes posteriores são instruídos a não restaurar conteúdo removido.
 
+Além da instrução, o Estúdio protege tecnicamente os arquivos editados: se um agente tentar sobrescrevê-los, a versão humana é restaurada ao término da execução. Uma edição posterior à aprovação invalida a aprovação daquela fase e exige nova confirmação explícita. Substituir o PowerPoint também invalida a segunda aprovação.
+
 ### HUMAN1
 Usuário revisa `script/lesson-script.md`, `voice/segments.json` e `qa/technical-review-1.md`.
 
