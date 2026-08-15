@@ -1,5 +1,9 @@
 # Comece aqui
 
+## Opção recomendada para pessoas não técnicas
+
+Na raiz do projeto, execute `npm run studio` e abra `http://localhost:3000`. A interface conduz todas as etapas, uploads, revisões e pausas humanas sem exigir o uso direto dos scripts abaixo.
+
 ## 1. Instalar dependências do projeto
 Na raiz:
 ```bash

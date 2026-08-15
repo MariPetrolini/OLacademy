@@ -14,7 +14,9 @@
     "storyboard:auto": "node automation/remotion/auto-storyboard.mjs",
     "video:prepare": "node automation/remotion/prepare-runtime.mjs",
     "video:render": "node automation/remotion/render-lesson.mjs",
-    "video:validate": "npm --prefix remotion run typecheck"
+    "video:validate": "npm --prefix remotion run typecheck",
+    "studio": "node automation/studio/start.mjs",
+    "studio:build": "npm --prefix studio run build"
   },
   "engines": {
     "node": ">=20"

@@ -28,4 +28,14 @@ Esta versão foi refatorada a partir do projeto V3 para um fluxo **simples, huma
 
 Vídeos reutilizáveis de abertura e conclusão podem ser colocados em `assets/video/` e vinculados por aula com `video-config.json`. Consulte `docs/WORKFLOW.md` e `templates/video-config.example.json`.
 
+## Estúdio local
+
+Para usar todo o fluxo por uma interface visual no notebook:
+
+```bash
+npm run studio
+```
+
+Depois, abra `http://localhost:3000`. O Estúdio OL Academy permite criar aulas, editar e aprovar textos, enviar PowerPoint e vídeos, chamar os agentes responsáveis, gerar voz, renderizar e acompanhar cada etapa. Claude Code, Codex, ElevenLabs, Node.js e FFmpeg precisam estar configurados para as etapas que dependem deles.
+
 Comece por `docs/START-HERE.md`.
