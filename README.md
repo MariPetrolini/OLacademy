@@ -26,7 +26,7 @@ Esta versão foi refatorada a partir do projeto V3 para um fluxo **simples, huma
 11. QA audiovisual.
 12. MP4 final em `dist/`.
 
-Vídeos reutilizáveis de abertura e conclusão são configurados uma única vez na seção **Vídeos padrão** do Estúdio. Cada aula parametriza somente o título da abertura e o próximo assunto do encerramento. Consulte `docs/WORKFLOW.md`.
+Vídeos reutilizáveis de abertura e conclusão são configurados uma única vez na seção **Vídeos padrão** do Estúdio. Ao criar cada aula, o campo obrigatório **Próxima aula** define o texto variável do encerramento; ele ainda pode ser ajustado antes do render. Consulte `docs/WORKFLOW.md`.
 
 ## Estúdio local
 

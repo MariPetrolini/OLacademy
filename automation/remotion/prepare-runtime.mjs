@@ -54,6 +54,7 @@ const conclusionValue=option('--conclusion')??defaults.conclusionVideo??config.c
 const openingTitle=option('--opening-title')??config.openingTitle??lessonTitle;
 const nextTopic=option('--next-topic')??config.nextTopic;
 if(!openingValue||!conclusionValue)throw new Error('configure os vídeos padrão de abertura e conclusão no Estúdio antes de renderizar');
+if(!String(nextTopic||'').trim())throw new Error('informe a próxima aula para personalizar o vídeo de encerramento');
 const conclusionVideo=linkVideo(conclusionValue,'conclusion');
 if(nextTopic&&!conclusionVideo)throw new Error('nextTopic requer conclusionVideo para ser exibido');
 const props={

@@ -27,7 +27,7 @@ Em cada aula, somente os textos variáveis ficam em `video-config.json`:
 }
 ```
 
-A abertura padrão é inserida antes do restante da composição e recebe `openingTitle`. Quando esse campo não é informado, o tema do `lesson-brief.md` é usado automaticamente. A conclusão padrão é inserida depois da última cena, e `nextTopic` aparece sobre ela.
+A abertura padrão é inserida antes do restante da composição e recebe `openingTitle`. Quando esse campo não é informado, o tema do `lesson-brief.md` é usado automaticamente. O campo **Próxima aula** é obrigatório ao criar uma produção, fica salvo em `nextTopic` e aparece sobre a conclusão padrão depois da última cena. Ele pode ser ajustado na etapa de renderização.
 
 Também é possível parametrizar sem alterar o JSON:
 
