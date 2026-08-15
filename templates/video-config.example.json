@@ -1,5 +1,4 @@
 {
-  "openingVideo": "../../../../assets/video/opening.mp4",
-  "conclusionVideo": "../../../../assets/video/conclusion.mp4",
+  "openingTitle": "Título exibido na abertura desta aula",
   "nextTopic": "O próximo assunto da trilha"
 }

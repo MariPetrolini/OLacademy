@@ -16,25 +16,25 @@ Usuário revisa imagens do PPT, `source/slide-analysis.md`, roteiro adaptado, `s
 
 ## Vídeos vinculados de abertura e conclusão
 
-O Remotion pode anexar automaticamente um vídeo antes das cenas da aula e outro ao final. Coloque os arquivos reutilizáveis em `assets/video/` e crie `video-config.json` na raiz da aula usando `templates/video-config.example.json` como modelo:
+O Remotion anexa automaticamente um vídeo padrão antes das cenas da aula e outro ao final. No Estúdio, abra **Vídeos padrão** no menu lateral e faça upload dos dois arquivos uma única vez. Eles serão gravados em `assets/video/`, e a configuração global ficará em `config/video-defaults.json`.
+
+Em cada aula, somente os textos variáveis ficam em `video-config.json`:
 
 ```json
 {
-  "openingVideo": "../../../../assets/video/opening.mp4",
-  "conclusionVideo": "../../../../assets/video/conclusion.mp4",
+  "openingTitle": "Título exibido na abertura desta aula",
   "nextTopic": "Camada física e meios de transmissão"
 }
 ```
 
-Os caminhos podem ser relativos à pasta da aula ou à raiz do projeto. A abertura é inserida antes do restante da composição. A conclusão é inserida depois da última cena, e `nextTopic` aparece sobre o vídeo de conclusão.
+A abertura padrão é inserida antes do restante da composição e recebe `openingTitle`. Quando esse campo não é informado, o tema do `lesson-brief.md` é usado automaticamente. A conclusão padrão é inserida depois da última cena, e `nextTopic` aparece sobre ela.
 
 Também é possível parametrizar sem alterar o JSON:
 
 ```bash
 npm run video:render -- courses/curso/lessons/aula \
-  --opening assets/video/opening.mp4 \
-  --conclusion assets/video/conclusion.mp4 \
+  --opening-title "Título desta aula" \
   --next-topic "Próximo assunto"
 ```
 
-Os parâmetros da linha de comando têm precedência sobre `video-config.json`. Se nenhum vídeo for configurado, o comportamento anterior é preservado. O pipeline usa `ffprobe` para calcular automaticamente as durações e ajustar o total da composição.
+Os parâmetros da linha de comando têm precedência sobre `video-config.json`. O render é bloqueado enquanto os dois vídeos globais não estiverem configurados. O pipeline usa `ffprobe` para calcular automaticamente as durações e ajustar o total da composição.
