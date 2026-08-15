@@ -1,0 +1,15 @@
+{
+  "lessonId": "mac-learning",
+  "segments": [
+    {
+      "id": "SEG-000",
+      "text": "Olá, eu sou André Brazioli, diretor de pós-vendas na O L Tecnologia e especialista em redes. Hoje falaremos sobre como um switch aprende endereços MAC. Vamos começar?",
+      "scriptRef": "Abertura obrigatória — brain/opening-signature.md",
+      "sourcePages": [1]
+    },
+    {
+      "id": "SEG-001",
+      "text": "Texto exato da narração."
+    }
+  ]
+}

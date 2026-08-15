@@ -1,0 +1,155 @@
+{
+  "lessonId": "fundamentos-01-modelo-osi",
+  "phase": "DELIVERED",
+  "humanCheckpoint": "CONTINUE_2_RECEIVED",
+  "note": "Informativo apenas. A autorizacao humana ocorre na conversa.",
+  "updatedAt": "2026-07-29",
+  "research": {
+    "status": "PASS_WITH_WARNINGS",
+    "claims": 21,
+    "sourcesLevelA": 7
+  },
+  "script": {
+    "segments": 40,
+    "words": 2093,
+    "estimatedMinutesAt135wpm": 15.5,
+    "targetMinutes": 14,
+    "ceilingMinutes": 16,
+    "audioGenerated": false
+  },
+  "openQuestions": {
+    "blockingVideo": [
+      "OQ-001",
+      "OQ-007"
+    ],
+    "advisory": [
+      "OQ-002",
+      "OQ-003",
+      "OQ-004",
+      "OQ-005",
+      "OQ-006",
+      "OQ-008"
+    ]
+  },
+  "review1": {
+    "writtenReportPresent": true,
+    "status": "PASS_WITH_WARNINGS",
+    "critical": 0,
+    "high": 0,
+    "medium": 3,
+    "low": 0,
+    "report": "qa/technical-review-1.md",
+    "response": "qa/technical-review-1-response.md",
+    "fixedAt": "2026-07-29",
+    "rereviewedAt": "2026-07-29",
+    "highClosed": [
+      "TR1-001",
+      "TR1-002"
+    ],
+    "mediumClosed": [
+      "TR1-003",
+      "TR1-004",
+      "TR1-005"
+    ],
+    "lowHandled": [
+      "TR1-006 (parcial, decisao editorial pendente)",
+      "TR1-007 (mantido, registrado)"
+    ]
+  },
+  "next": "Escuta humana; decidir OQ-007, licenca em release/credits.md e recalibracao de ppm",
+  "slides": {
+    "count": 15,
+    "resolution": "1920x1080",
+    "source": "native-html-rebuild",
+    "generator": "source/slide-build/gen_slides.py",
+    "divergencesClosed": [
+      "DIV-001",
+      "DIV-002",
+      "DIV-003",
+      "DIV-004",
+      "DIV-005",
+      "DIV-006"
+    ],
+    "watermark": false,
+    "upscaleNeeded": false
+  },
+  "slideMap": {
+    "slidesNarrated": "15/15",
+    "segmentsMapped": "40/40",
+    "monotonic": true,
+    "generatedBy": "script/build-artifacts.py"
+  },
+  "storyboard": {
+    "scenes": 40,
+    "strategy": "one-scene-per-segment",
+    "withHighlight": 12,
+    "wantedMotionUnimplemented": 10,
+    "generatedBy": "storyboard/build-scene-plan.py",
+    "durationsAreEstimates": true
+  },
+  "review2": {
+    "writtenReportPresent": true,
+    "status": "PASS_WITH_WARNINGS",
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 2,
+    "report": "qa/technical-review-2.md",
+    "response": "qa/technical-review-2-response.md",
+    "fixedAt": "2026-07-29",
+    "handled": [
+      "TR2-001",
+      "TR2-002",
+      "TR2-003"
+    ],
+    "rereviewRequired": true,
+    "rereviewReason": "TR2-001 alterou texto tecnico falado, 2 slides e 1 overlay",
+    "rereviewRan": false,
+    "rereviewNote": "Responsavel autorizou seguir sem repetir a revisao. O parecer vigente validou o texto ANTERIOR ao fix de TR2-001; o fix seguiu a correcao prescrita pelo proprio parecer."
+  },
+  "openForHuman": [
+    "TR2-003: confirmar autoria/licenca do deck original em release/credits.md",
+    "OQ-001: origem da captura real",
+    "OQ-007: PNG como base da cena"
+  ],
+  "preflight": {
+    "remotionDepsInstalled": true,
+    "typecheck": "pass",
+    "esbuild": "ok",
+    "artifactContract": "scene-plan x segments.json x manifesto x PNGs consistentes",
+    "envLocalPresent": false
+  },
+  "voice": {
+    "segments": 40,
+    "charactersSent": 11606,
+    "audioGenerated": true,
+    "realDurationSeconds": 729.85,
+    "measuredWpm": 172.1,
+    "modelWpm": 135,
+    "modelErrorPct": -21.6
+  },
+  "video": {
+    "file": "dist/fundamentos-01-modelo-osi.mp4",
+    "sizeMB": 49.3,
+    "durationSeconds": 729.92,
+    "resolution": "1920x1080",
+    "fps": 30,
+    "frames": 21896,
+    "audio": "aac 48kHz stereo",
+    "renderedTwice": "segundo render apos corrigir AVQA-001 e AVQA-002"
+  },
+  "audiovisualQA": {
+    "report": "qa/audiovisual-review.md",
+    "verdict": "PASS_WITH_WARNINGS",
+    "fixed": [
+      "AVQA-001 chip cobria conteudo",
+      "AVQA-002 amarelo violava branding"
+    ],
+    "openLow": [
+      "AVQA-003 scrim 10%",
+      "AVQA-004 folga de coordenada",
+      "AVQA-005 wantedMotion"
+    ],
+    "humanCheckRequired": "escutar o audio (pronuncia e timbre nao sao verificaveis automaticamente)"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "network-course-factory-v4",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "scripts": {
+    "doctor": "bash automation/project/doctor.sh",
+    "lesson:new": "node automation/project/create-lesson.mjs",
+    "lesson:status": "node automation/project/lesson-status.mjs",
+    "slides:ingest": "node automation/project/ingest-powerpoint.mjs",
+    "slides:ingest-images": "node automation/project/ingest-pptx-images.mjs",
+    "slides:render-html": "node automation/slides/render-html-slides.mjs",
+    "voice:generate": "node automation/elevenlabs/generate-voice.mjs",
+    "storyboard:auto": "node automation/remotion/auto-storyboard.mjs",
+    "video:prepare": "node automation/remotion/prepare-runtime.mjs",
+    "video:render": "node automation/remotion/render-lesson.mjs",
+    "video:validate": "npm --prefix remotion run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

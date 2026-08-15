@@ -1,0 +1,3 @@
+import React from 'react'; import {Composition, staticFile} from 'remotion'; import {LessonVideo, type LessonProps, calcDuration} from './Video';
+const defaultProps: LessonProps={lessonId:'placeholder',scenes:[{id:'SCN-001',slideNumber:1,segmentIds:[],overlays:[],transition:'fade',durationSeconds:5}],audioSegments:[],slideBase:'runtime/placeholder/slides'};
+export const Root:React.FC=()=> <Composition id="LessonVideo" component={LessonVideo} width={1920} height={1080} fps={30} durationInFrames={150} defaultProps={defaultProps} calculateMetadata={({props})=>({durationInFrames:calcDuration(props as LessonProps,30)})}/>;

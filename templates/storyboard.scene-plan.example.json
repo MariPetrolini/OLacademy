@@ -1,0 +1,23 @@
+{
+  "lessonId": "mac-learning",
+  "scenes": [
+    {
+      "id": "SCN-001",
+      "slideNumber": 1,
+      "segmentIds": [
+        "SEG-001"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.1,
+          "y": 0.2,
+          "w": 0.35,
+          "h": 0.15,
+          "label": "Destaque"
+        }
+      ],
+      "transition": "fade"
+    }
+  ]
+}

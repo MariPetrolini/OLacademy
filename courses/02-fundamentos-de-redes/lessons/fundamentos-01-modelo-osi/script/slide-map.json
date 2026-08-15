@@ -1,0 +1,331 @@
+{
+  "lessonId": "fundamentos-01-modelo-osi",
+  "generatedBy": "script/build-artifacts.py",
+  "slideCount": 15,
+  "note": "Ordem dos slides monotonica. Todo slide narrado, todo segmento com slide.",
+  "segments": [
+    {
+      "segmentId": "SEG-000",
+      "slideNumber": 1,
+      "estimatedSeconds": 11.6
+    },
+    {
+      "segmentId": "SEG-001",
+      "slideNumber": 1,
+      "estimatedSeconds": 27.1
+    },
+    {
+      "segmentId": "SEG-002",
+      "slideNumber": 1,
+      "estimatedSeconds": 26.2
+    },
+    {
+      "segmentId": "SEG-004",
+      "slideNumber": 2,
+      "estimatedSeconds": 20.9
+    },
+    {
+      "segmentId": "SEG-005",
+      "slideNumber": 2,
+      "estimatedSeconds": 15.6
+    },
+    {
+      "segmentId": "SEG-006",
+      "slideNumber": 2,
+      "estimatedSeconds": 21.8
+    },
+    {
+      "segmentId": "SEG-007",
+      "slideNumber": 3,
+      "estimatedSeconds": 30.7
+    },
+    {
+      "segmentId": "SEG-009",
+      "slideNumber": 3,
+      "estimatedSeconds": 20.9
+    },
+    {
+      "segmentId": "SEG-008",
+      "slideNumber": 4,
+      "estimatedSeconds": 21.3
+    },
+    {
+      "segmentId": "SEG-010",
+      "slideNumber": 4,
+      "estimatedSeconds": 23.1
+    },
+    {
+      "segmentId": "SEG-011",
+      "slideNumber": 5,
+      "estimatedSeconds": 10.7
+    },
+    {
+      "segmentId": "SEG-012",
+      "slideNumber": 5,
+      "estimatedSeconds": 14.2
+    },
+    {
+      "segmentId": "SEG-013",
+      "slideNumber": 5,
+      "estimatedSeconds": 19.6
+    },
+    {
+      "segmentId": "SEG-014",
+      "slideNumber": 5,
+      "estimatedSeconds": 16.0
+    },
+    {
+      "segmentId": "SEG-015",
+      "slideNumber": 5,
+      "estimatedSeconds": 32.4
+    },
+    {
+      "segmentId": "SEG-016",
+      "slideNumber": 5,
+      "estimatedSeconds": 15.6
+    },
+    {
+      "segmentId": "SEG-017",
+      "slideNumber": 5,
+      "estimatedSeconds": 13.3
+    },
+    {
+      "segmentId": "SEG-018A",
+      "slideNumber": 6,
+      "estimatedSeconds": 19.1
+    },
+    {
+      "segmentId": "SEG-018",
+      "slideNumber": 6,
+      "estimatedSeconds": 38.7
+    },
+    {
+      "segmentId": "SEG-019",
+      "slideNumber": 7,
+      "estimatedSeconds": 40.0
+    },
+    {
+      "segmentId": "SEG-020",
+      "slideNumber": 7,
+      "estimatedSeconds": 27.6
+    },
+    {
+      "segmentId": "SEG-021",
+      "slideNumber": 7,
+      "estimatedSeconds": 14.2
+    },
+    {
+      "segmentId": "SEG-022",
+      "slideNumber": 8,
+      "estimatedSeconds": 36.9
+    },
+    {
+      "segmentId": "SEG-023",
+      "slideNumber": 8,
+      "estimatedSeconds": 18.7
+    },
+    {
+      "segmentId": "SEG-024",
+      "slideNumber": 9,
+      "estimatedSeconds": 28.4
+    },
+    {
+      "segmentId": "SEG-025",
+      "slideNumber": 10,
+      "estimatedSeconds": 18.2
+    },
+    {
+      "segmentId": "SEG-026",
+      "slideNumber": 10,
+      "estimatedSeconds": 32.0
+    },
+    {
+      "segmentId": "SEG-027",
+      "slideNumber": 10,
+      "estimatedSeconds": 30.7
+    },
+    {
+      "segmentId": "SEG-028",
+      "slideNumber": 11,
+      "estimatedSeconds": 27.1
+    },
+    {
+      "segmentId": "SEG-029",
+      "slideNumber": 11,
+      "estimatedSeconds": 23.1
+    },
+    {
+      "segmentId": "SEG-030",
+      "slideNumber": 11,
+      "estimatedSeconds": 36.0
+    },
+    {
+      "segmentId": "SEG-031",
+      "slideNumber": 11,
+      "estimatedSeconds": 17.8
+    },
+    {
+      "segmentId": "SEG-032",
+      "slideNumber": 12,
+      "estimatedSeconds": 40.9
+    },
+    {
+      "segmentId": "SEG-033",
+      "slideNumber": 13,
+      "estimatedSeconds": 33.3
+    },
+    {
+      "segmentId": "SEG-034",
+      "slideNumber": 13,
+      "estimatedSeconds": 7.6
+    },
+    {
+      "segmentId": "SEG-035",
+      "slideNumber": 13,
+      "estimatedSeconds": 19.6
+    },
+    {
+      "segmentId": "SEG-036",
+      "slideNumber": 14,
+      "estimatedSeconds": 10.2
+    },
+    {
+      "segmentId": "SEG-037",
+      "slideNumber": 14,
+      "estimatedSeconds": 11.6
+    },
+    {
+      "segmentId": "SEG-038",
+      "slideNumber": 15,
+      "estimatedSeconds": 21.8
+    },
+    {
+      "segmentId": "SEG-039",
+      "slideNumber": 15,
+      "estimatedSeconds": 26.7
+    },
+    {
+      "segmentId": "SEG-040",
+      "slideNumber": 15,
+      "estimatedSeconds": 20.9
+    }
+  ],
+  "groups": [
+    {
+      "slideNumber": 1,
+      "segmentIds": [
+        "SEG-000",
+        "SEG-001",
+        "SEG-002"
+      ]
+    },
+    {
+      "slideNumber": 2,
+      "segmentIds": [
+        "SEG-004",
+        "SEG-005",
+        "SEG-006"
+      ]
+    },
+    {
+      "slideNumber": 3,
+      "segmentIds": [
+        "SEG-007",
+        "SEG-009"
+      ]
+    },
+    {
+      "slideNumber": 4,
+      "segmentIds": [
+        "SEG-008",
+        "SEG-010"
+      ]
+    },
+    {
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-011",
+        "SEG-012",
+        "SEG-013",
+        "SEG-014",
+        "SEG-015",
+        "SEG-016",
+        "SEG-017"
+      ]
+    },
+    {
+      "slideNumber": 6,
+      "segmentIds": [
+        "SEG-018A",
+        "SEG-018"
+      ]
+    },
+    {
+      "slideNumber": 7,
+      "segmentIds": [
+        "SEG-019",
+        "SEG-020",
+        "SEG-021"
+      ]
+    },
+    {
+      "slideNumber": 8,
+      "segmentIds": [
+        "SEG-022",
+        "SEG-023"
+      ]
+    },
+    {
+      "slideNumber": 9,
+      "segmentIds": [
+        "SEG-024"
+      ]
+    },
+    {
+      "slideNumber": 10,
+      "segmentIds": [
+        "SEG-025",
+        "SEG-026",
+        "SEG-027"
+      ]
+    },
+    {
+      "slideNumber": 11,
+      "segmentIds": [
+        "SEG-028",
+        "SEG-029",
+        "SEG-030",
+        "SEG-031"
+      ]
+    },
+    {
+      "slideNumber": 12,
+      "segmentIds": [
+        "SEG-032"
+      ]
+    },
+    {
+      "slideNumber": 13,
+      "segmentIds": [
+        "SEG-033",
+        "SEG-034",
+        "SEG-035"
+      ]
+    },
+    {
+      "slideNumber": 14,
+      "segmentIds": [
+        "SEG-036",
+        "SEG-037"
+      ]
+    },
+    {
+      "slideNumber": 15,
+      "segmentIds": [
+        "SEG-038",
+        "SEG-039",
+        "SEG-040"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "lessonId": "fundamentos-01-modelo-osi",
+  "generatedBy": "storyboard/build-scene-plan.py",
+  "sceneStrategy": "one-scene-per-segment",
+  "durationSource": "audio-manifest (medido por ffprobe)",
+  "note": "NAO usar npm run storyboard:auto nesta aula: ele agrupa segmentos consecutivos do mesmo slide em uma cena unica, o que destruiria a estrategia de uma cena por segmento e descartaria os overlays. Overlays limitados a 'highlight', o unico tipo implementado em remotion/src/Video.tsx; ver wantedMotion para o resto.",
+  "slideBaseDecision": "PNG do slide como base visual obrigatoria, conforme CLAUDE.md Fase 8 item 26. Conflita com brain/visual-language.md — ver OQ-007.",
+  "sceneCount": 41,
+  "scenes": [
+    {
+      "id": "SCN-001",
+      "slideNumber": 1,
+      "segmentIds": [
+        "SEG-000"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 11.145578
+    },
+    {
+      "id": "SCN-002",
+      "slideNumber": 1,
+      "segmentIds": [
+        "SEG-001"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 20.944399,
+      "wantedMotion": "pan lento sobre a linha vermelha, do notebook ate o servidor"
+    },
+    {
+      "id": "SCN-003",
+      "slideNumber": 1,
+      "segmentIds": [
+        "SEG-002"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 19.922721
+    },
+    {
+      "id": "SCN-004",
+      "slideNumber": 2,
+      "segmentIds": [
+        "SEG-004"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 19.365442
+    },
+    {
+      "id": "SCN-005",
+      "slideNumber": 2,
+      "segmentIds": [
+        "SEG-005"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 15.000091
+    },
+    {
+      "id": "SCN-006",
+      "slideNumber": 2,
+      "segmentIds": [
+        "SEG-006"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 18.436644,
+      "wantedMotion": "revelar o X sobre a coluna da pilha de protocolos no momento em que a fala diz que ela nao venceu"
+    },
+    {
+      "id": "SCN-007",
+      "slideNumber": 3,
+      "segmentIds": [
+        "SEG-007"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 24.427392,
+      "wantedMotion": "animar a seta vertical (servico) e depois a horizontal tracejada (protocolo)"
+    },
+    {
+      "id": "SCN-008",
+      "slideNumber": 3,
+      "segmentIds": [
+        "SEG-009"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 14.814331
+    },
+    {
+      "id": "SCN-009",
+      "slideNumber": 4,
+      "segmentIds": [
+        "SEG-008"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 14.396372,
+      "wantedMotion": "pulsar as duas caixas da camada 3 em sincronia, para marcar a paridade"
+    },
+    {
+      "id": "SCN-010",
+      "slideNumber": 4,
+      "segmentIds": [
+        "SEG-010"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 17.647166
+    },
+    {
+      "id": "SCN-011",
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-011"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 6.408707
+    },
+    {
+      "id": "SCN-012",
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-012"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.0625,
+          "y": 0.5157,
+          "w": 0.875,
+          "h": 0.0679,
+          "label": "Camada 1"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 17.600726
+    },
+    {
+      "id": "SCN-013",
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-013"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.0625,
+          "y": 0.4478,
+          "w": 0.875,
+          "h": 0.0679,
+          "label": "Camada 2"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 20.48
+    },
+    {
+      "id": "SCN-014",
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-014"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.0625,
+          "y": 0.3799,
+          "w": 0.875,
+          "h": 0.0679,
+          "label": "Camada 3"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 12.956735
+    },
+    {
+      "id": "SCN-015",
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-015"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.0625,
+          "y": 0.312,
+          "w": 0.875,
+          "h": 0.0679,
+          "label": "Camada 4"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 28.374785
+    },
+    {
+      "id": "SCN-016",
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-016"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.0625,
+          "y": 0.1762,
+          "w": 0.875,
+          "h": 0.1358,
+          "label": "Camadas 5 e 6"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 18.065125
+    },
+    {
+      "id": "SCN-017",
+      "slideNumber": 5,
+      "segmentIds": [
+        "SEG-017"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.0625,
+          "y": 0.1083,
+          "w": 0.875,
+          "h": 0.0679,
+          "label": "Camada 7"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 9.752381
+    },
+    {
+      "id": "SCN-018",
+      "slideNumber": 6,
+      "segmentIds": [
+        "SEG-018A"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 12.956735
+    },
+    {
+      "id": "SCN-019",
+      "slideNumber": 6,
+      "segmentIds": [
+        "SEG-018"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 33.250975,
+      "wantedMotion": "acender a pilha do relay apenas nas camadas 1 a 3"
+    },
+    {
+      "id": "SCN-020",
+      "slideNumber": 7,
+      "segmentIds": [
+        "SEG-019"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 33.390295
+    },
+    {
+      "id": "SCN-021",
+      "slideNumber": 7,
+      "segmentIds": [
+        "SEG-020"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 20.57288,
+      "wantedMotion": "revelar SDU + PCI = PDU termo por termo"
+    },
+    {
+      "id": "SCN-022",
+      "slideNumber": 7,
+      "segmentIds": [
+        "SEG-021"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 9.287982
+    },
+    {
+      "id": "SCN-023",
+      "slideNumber": 8,
+      "segmentIds": [
+        "SEG-022"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.521,
+          "y": 0.412,
+          "w": 0.396,
+          "h": 0.116,
+          "label": "Controle depois dos dados"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 31.068299
+    },
+    {
+      "id": "SCN-024",
+      "slideNumber": 8,
+      "segmentIds": [
+        "SEG-023"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 14.535692
+    },
+    {
+      "id": "SCN-025",
+      "slideNumber": 9,
+      "segmentIds": [
+        "SEG-024"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 23.312834,
+      "wantedMotion": "revelar as caixas aninhadas de fora para dentro, uma por camada citada"
+    },
+    {
+      "id": "SCN-026",
+      "slideNumber": 10,
+      "segmentIds": [
+        "SEG-025"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 14.860771
+    },
+    {
+      "id": "SCN-027",
+      "slideNumber": 10,
+      "segmentIds": [
+        "SEG-026"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.0625,
+          "y": 0.3037,
+          "w": 0.875,
+          "h": 0.2778
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 26.377868
+    },
+    {
+      "id": "SCN-028",
+      "slideNumber": 10,
+      "segmentIds": [
+        "SEG-027"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.2656,
+          "y": 0.602,
+          "w": 0.672,
+          "h": 0.085,
+          "label": "A norma que define cada nome"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 24.938231
+    },
+    {
+      "id": "SCN-029",
+      "slideNumber": 11,
+      "segmentIds": [
+        "SEG-028"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 26.052789
+    },
+    {
+      "id": "SCN-030",
+      "slideNumber": 11,
+      "segmentIds": [
+        "SEG-029"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 18.854603,
+      "wantedMotion": "desenhar o colchete de 6-7 para Aplicacao, deixando a camada 5 por ultimo e sem ligacao"
+    },
+    {
+      "id": "SCN-031",
+      "slideNumber": 11,
+      "segmentIds": [
+        "SEG-030"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.09375,
+          "y": 0.4407,
+          "w": 0.198,
+          "h": 0.0704,
+          "label": "Sem camada separada"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 23.219955
+    },
+    {
+      "id": "SCN-032",
+      "slideNumber": 11,
+      "segmentIds": [
+        "SEG-031"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 16.857687
+    },
+    {
+      "id": "SCN-033",
+      "slideNumber": 12,
+      "segmentIds": [
+        "SEG-032"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.094,
+          "y": 0.343,
+          "w": 0.37,
+          "h": 0.194,
+          "label": "LLC sobre MAC"
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 31.904218
+    },
+    {
+      "id": "SCN-034",
+      "slideNumber": 13,
+      "segmentIds": [
+        "SEG-033"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 28.792744
+    },
+    {
+      "id": "SCN-035",
+      "slideNumber": 13,
+      "segmentIds": [
+        "SEG-034"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 8.173424,
+      "wantedMotion": "revelar os degraus 1, 2 e 3 na ordem da fala"
+    },
+    {
+      "id": "SCN-036",
+      "slideNumber": 13,
+      "segmentIds": [
+        "SEG-035"
+      ],
+      "overlays": [
+        {
+          "type": "highlight",
+          "x": 0.5885,
+          "y": 0.547,
+          "w": 0.328,
+          "h": 0.1815
+        }
+      ],
+      "transition": "fade",
+      "durationSeconds": 13.096054
+    },
+    {
+      "id": "SCN-037",
+      "slideNumber": 14,
+      "segmentIds": [
+        "SEG-036"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 9.845261
+    },
+    {
+      "id": "SCN-038",
+      "slideNumber": 14,
+      "segmentIds": [
+        "SEG-037"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 7.569705
+    },
+    {
+      "id": "SCN-039",
+      "slideNumber": 15,
+      "segmentIds": [
+        "SEG-038"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 17.879365,
+      "wantedMotion": "revelar os seis cartoes de resumo na ordem em que sao citados"
+    },
+    {
+      "id": "SCN-040",
+      "slideNumber": 15,
+      "segmentIds": [
+        "SEG-039"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 19.504762
+    },
+    {
+      "id": "SCN-041",
+      "slideNumber": 15,
+      "segmentIds": [
+        "SEG-040"
+      ],
+      "overlays": [],
+      "transition": "fade",
+      "durationSeconds": 18.761723
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "ingestedBy": "gen_slides.py + automation/slides/render-html-slides.mjs",
+  "ingestMode": "native-html-rebuild",
+  "note": "Slides reconstruidos nativamente na identidade da escola em 2026-07-29, para corrigir 6 erros factuais do deck original. NAO derivam de source/original/deck.pptx. Fonte de verdade: source/slide-build/gen_slides.py.",
+  "supersededDeck": "source/original/deck.pptx",
+  "supersededRender": "source/superseded-notebooklm/",
+  "rebuildCommand": "python3 source/slide-build/gen_slides.py && npm run slides:render-html -- <aula>/source/slide-build/slides_html <aula>/source/slides",
+  "targetCanvas": "1920x1080",
+  "canvasMatch": true,
+  "slideCount": 15,
+  "slides": [
+    {
+      "number": 1,
+      "file": "source/slides/slide-001.png",
+      "title": "O problema — nada disso foi testado junto",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 2,
+      "file": "source/slides/slide-002.png",
+      "title": "A norma — Open Systems Interconnection",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 3,
+      "file": "source/slides/slide-003.png",
+      "title": "Conceito-chave — serviço não é protocolo",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 4,
+      "file": "source/slides/slide-004.png",
+      "title": "A engrenagem — entidades pares e serviço cumulativo",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 5,
+      "file": "source/slides/slide-005.png",
+      "title": "As sete camadas",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 6,
+      "file": "source/slides/slide-006.png",
+      "title": "Definição exata da camada 3 e relay",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 7,
+      "file": "source/slides/slide-007.png",
+      "title": "Passo 1 de 3 — SDU + PCI = PDU",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 8,
+      "file": "source/slides/slide-008.png",
+      "title": "Erro comum — o cabeçalho não vai na frente",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 9,
+      "file": "source/slides/slide-009.png",
+      "title": "Evidência — a mesma estrutura, em bytes",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 10,
+      "file": "source/slides/slide-010.png",
+      "title": "Rigor de fonte — esses nomes não são do OSI",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 11,
+      "file": "source/slides/slide-011.png",
+      "title": "OSI × Internet — por que tanta gente desenha quatro",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 12,
+      "file": "source/slides/slide-012.png",
+      "title": "Nem tudo tem número — camada 2 e TLS",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 13,
+      "file": "source/slides/slide-013.png",
+      "title": "Diagnóstico, parte 1 — degraus 1 a 3",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 14,
+      "file": "source/slides/slide-014.png",
+      "title": "Diagnóstico, parte 2 — degraus 4 e 5–7",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    },
+    {
+      "number": 15,
+      "file": "source/slides/slide-015.png",
+      "title": "Resumo e exercício",
+      "width": 1920,
+      "height": 1080,
+      "required": true
+    }
+  ],
+  "warnings": []
+}

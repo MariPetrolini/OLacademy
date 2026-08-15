@@ -1,0 +1,254 @@
+{
+  "lessonId": "fundamentos-01-modelo-osi",
+  "voiceId": "p4qEA5bFtwCC693NHRKS",
+  "modelId": "eleven_multilingual_v2",
+  "speed": 0.93,
+  "segments": [
+    {
+      "id": "SEG-000",
+      "file": "voice/generated/SEG-000.mp3",
+      "durationSeconds": 11.145578,
+      "text": "Olá, eu sou André Brazioli, diretor de pós-vendas na O L Tecnologia e especialista em redes. Hoje falaremos sobre o modelo O S I. Vamos começar?"
+    },
+    {
+      "id": "SEG-001",
+      "file": "voice/generated/SEG-001.mp3",
+      "durationSeconds": 20.944399,
+      "text": "Existe uma coisa que acontece todos os dias e que, se você parar para pensar, deveria ser impossível. Um notebook qualquer se conecta a um switch de um fabricante, que entrega o tráfego para um roteador de outro, que atravessa a rede de uma operadora e chega em um servidor com outro sistema operacional. Nada disso foi testado junto. E funciona."
+    },
+    {
+      "id": "SEG-002",
+      "file": "voice/generated/SEG-002.mp3",
+      "durationSeconds": 19.922721,
+      "text": "Funciona porque, décadas atrás, um grupo de pessoas dividiu o problema. A solução não foi um protocolo: foi um jeito de dividir, e é esse jeito que a gente vai estudar. E tem um motivo mais imediato. Quando a rede não funciona, você precisa de uma ordem para investigar. Sem ordem, é tentativa e erro. Com ordem, é método."
+    },
+    {
+      "id": "SEG-004",
+      "file": "voice/generated/SEG-004.mp3",
+      "durationSeconds": 19.365442,
+      "text": "O nome completo é Modelo de Referência Básico para Interconexão de Sistemas Abertos. Em inglês, Open Systems Interconnection, que dá a sigla O S I. É uma norma internacional, publicada em texto idêntico pela I S O e pela União Internacional de Telecomunicações, e continua em vigor."
+    },
+    {
+      "id": "SEG-005",
+      "file": "voice/generated/SEG-005.mp3",
+      "durationSeconds": 15.000091,
+      "text": "Guarde a palavra referência. Um modelo de referência não diz como construir nada. Ele divide responsabilidades e define fronteiras, para que times diferentes, em países diferentes, trabalhem de forma independente e o resultado ainda encaixe."
+    },
+    {
+      "id": "SEG-006",
+      "file": "voice/generated/SEG-006.mp3",
+      "durationSeconds": 18.436644,
+      "text": "Isso desarma uma confusão comum. Existiu também uma família de protocolos O S I, feita para implementar o modelo, e ela não venceu comercialmente: quem venceu foi o TCP/IP. Mas o modelo continua sendo a linguagem comum da área. Quem diz que esse modelo morreu está falando dos protocolos."
+    },
+    {
+      "id": "SEG-007",
+      "file": "voice/generated/SEG-007.mp3",
+      "durationSeconds": 24.427392,
+      "text": "O modelo tem sete camadas, mas antes de nomeá-las vale entender a engrenagem. Cada camada faz duas coisas, e a norma trata as duas separadamente. A primeira é oferecer um serviço para a camada de cima. A segunda é conversar com a camada de mesmo nível do outro lado, seguindo um protocolo. Serviço é o que você entrega para cima. Protocolo é como você combina com o seu par."
+    },
+    {
+      "id": "SEG-009",
+      "file": "voice/generated/SEG-009.mp3",
+      "durationSeconds": 14.814331,
+      "text": "Essa separação é o que dá liberdade de engenharia. Se o serviço entregue para cima continua o mesmo, você troca o protocolo debaixo dele sem quebrar nada acima. É o que acontece quando você sai do cabo e entra no Wi-Fi. O navegador não muda uma linha."
+    },
+    {
+      "id": "SEG-008",
+      "file": "voice/generated/SEG-008.mp3",
+      "durationSeconds": 14.396372,
+      "text": "A norma chama de entidades pares as que estão na mesma camada, em máquinas diferentes. A camada de rede do seu notebook conversa com a camada de rede do servidor. Não existe conversa direta entre a camada de rede de um lado e a de transporte do outro."
+    },
+    {
+      "id": "SEG-010",
+      "file": "voice/generated/SEG-010.mp3",
+      "durationSeconds": 17.647166,
+      "text": "E um detalhe que muita explicação perde: o serviço de uma camada não é só o trabalho dela. A norma define o serviço como a capacidade daquela camada mais todas as de baixo. Cada camada entrega para cima um serviço melhor do que recebeu. A pilha é um aprimoramento passo a passo."
+    },
+    {
+      "id": "SEG-011",
+      "file": "voice/generated/SEG-011.mp3",
+      "durationSeconds": 6.408707,
+      "text": "Com isso, as sete camadas. Vou de baixo para cima, porque é assim que o serviço cresce e é assim que você vai diagnosticar."
+    },
+    {
+      "id": "SEG-012",
+      "file": "voice/generated/SEG-012.mp3",
+      "durationSeconds": 17.600726,
+      "text": "Camada um, física. Meios mecânicos, elétricos, funcionais e procedurais para ativar, manter e desativar conexões físicas, com um objetivo só: transmitir bits. Tensão, luz, conector, pinagem. Nada de endereço, nada de decisão."
+    },
+    {
+      "id": "SEG-013",
+      "file": "voice/generated/SEG-013.mp3",
+      "durationSeconds": 20.48,
+      "text": "Camada dois, enlace de dados. Ela organiza a conversa entre vizinhos diretos, os que compartilham o mesmo meio. Estabelece e libera conexões de enlace e, na letra da norma, detecta e possivelmente corrige os erros da camada física. Repare no possivelmente: corrigir é opcional."
+    },
+    {
+      "id": "SEG-014",
+      "file": "voice/generated/SEG-014.mp3",
+      "durationSeconds": 12.956735,
+      "text": "Camada três, rede. A norma a define como a camada que dá às camadas de cima independência de roteamento e de encaminhamento. É a camada que faz você não precisar saber por onde o dado passou."
+    },
+    {
+      "id": "SEG-015",
+      "file": "voice/generated/SEG-015.mp3",
+      "durationSeconds": 28.374785,
+      "text": "Camada quatro, transporte. A palavra-chave da norma é transparente: o transporte libera as camadas de cima da preocupação com o modo pelo qual a transferência foi conseguida. E cuidado com um atalho aqui: transporte não é sinônimo de T C P. Quando o protocolo oferece confiabilidade, como o T C P, ele usa retransmissão, ordenação e controle de fluxo, e a aplicação não vê nada disso. Mas nem todo transporte oferece essas garantias."
+    },
+    {
+      "id": "SEG-016",
+      "file": "voice/generated/SEG-016.mp3",
+      "durationSeconds": 18.065125,
+      "text": "Camada cinco, sessão: organizar e sincronizar o diálogo entre as duas pontas. Camada seis, apresentação: a representação da informação. Dois sistemas podem guardar o mesmo texto de formas diferentes, e ela garante uma representação comum."
+    },
+    {
+      "id": "SEG-017",
+      "file": "voice/generated/SEG-017.mp3",
+      "durationSeconds": 9.752381,
+      "text": "Camada sete, aplicação. É o único meio de acesso do processo de aplicação ao ambiente de rede. E não é o programa inteiro: é a parte dele que fala rede."
+    },
+    {
+      "id": "SEG-018A",
+      "file": "voice/generated/SEG-018A.mp3",
+      "durationSeconds": 12.956735,
+      "text": "Com as sete na mesa, vale voltar na camada três, porque é a que mais gente conta errado. Você vai ouvir que ela é a camada do I P. Não é: o I P é uma implementação daquela responsabilidade, não a definição dela."
+    },
+    {
+      "id": "SEG-018",
+      "file": "voice/generated/SEG-018.mp3",
+      "durationSeconds": 33.250975,
+      "text": "E uma consequência antes de seguir. A norma diz que, quando o meio físico não liga todos os sistemas diretamente, alguns atuam apenas repassando dados, e que as funções desse repasse ficam nas camadas de baixo. É a explicação formal de por que um switch ou um roteador não precisa subir a pilha inteira para encaminhar aquele tráfego. Para o tráfego que ele repassa, ele é passagem, não destino. Isso não quer dizer que o equipamento não tenha camadas altas: ele tem, para ser gerenciado e configurado."
+    },
+    {
+      "id": "SEG-019",
+      "file": "voice/generated/SEG-019.mp3",
+      "durationSeconds": 33.390295,
+      "text": "Agora a mecânica. Como é que um dado atravessa sete camadas sem se perder? A norma nomeia três coisas. A primeira é a informação de controle de protocolo: o que as entidades pares trocam para coordenar o trabalho. Em linguagem de campo, o cabeçalho. A segunda é a unidade de dados de serviço, S D U: a carga que a camada transporta e que, pela definição da norma, ela não interpreta. A terceira é a unidade de dados de protocolo, P D U: controle mais, possivelmente, os dados do usuário."
+    },
+    {
+      "id": "SEG-020",
+      "file": "voice/generated/SEG-020.mp3",
+      "durationSeconds": 20.57288,
+      "text": "Encapsular é isso, e a norma descreve em uma frase: dentro de uma camada, a informação de controle é acrescentada à unidade de dados de serviço para formar a unidade de dados de protocolo. Depois essa P D U desce e passa a ser a carga da camada de baixo, que repete o processo. Na subida, cada camada remove a sua parte."
+    },
+    {
+      "id": "SEG-021",
+      "file": "voice/generated/SEG-021.mp3",
+      "durationSeconds": 9.287982,
+      "text": "Repare no que a definição de S D U garante: quem transporta não interpreta a carga. É por isso que um switch não precisa entender nada de web para entregar uma página."
+    },
+    {
+      "id": "SEG-022",
+      "file": "voice/generated/SEG-022.mp3",
+      "durationSeconds": 31.068299,
+      "text": "E um detalhe em que quase todo material erra. É comum ouvir que cada camada coloca um cabeçalho na frente dos dados. A norma explicitamente não diz isso: ela registra que não existe relação de posição definida entre a informação de controle e os dados dentro da unidade de protocolo. E não é preciosismo. O Ethernet coloca a sequência de verificação de erro no fim do quadro, depois dos dados. O correto é dizer que cada camada acrescenta a sua informação de controle."
+    },
+    {
+      "id": "SEG-023",
+      "file": "voice/generated/SEG-023.mp3",
+      "durationSeconds": 14.535692,
+      "text": "Também não é sempre um para um. A norma prevê que uma unidade de serviço seja mapeada em mais de uma unidade de protocolo, e isso é a segmentação. É o mecanismo que reaparece em fragmentação e em tamanho máximo de segmento."
+    },
+    {
+      "id": "SEG-024",
+      "file": "voice/generated/SEG-024.mp3",
+      "durationSeconds": 23.312834,
+      "text": "E nada disso é abstração. Em uma captura simples, o analisador de pacotes organiza a dissecação pelos encapsulamentos, e você reconhece a informação de enlace, depois a de rede, depois a de transporte, e por último os dados da aplicação. Os cabeçalhos estão ali, em bytes. Em tráfego com túnel a árvore fica mais funda do que isso, mas o princípio é o mesmo."
+    },
+    {
+      "id": "SEG-025",
+      "file": "voice/generated/SEG-025.mp3",
+      "durationSeconds": 14.860771,
+      "text": "Agora um assunto de rigor que vai te poupar constrangimento. Você já viu, ou vai ver, uma tabela dizendo que a camada dois usa quadro, a três usa pacote e a quatro usa segmento, apresentada como terminologia do O S I."
+    },
+    {
+      "id": "SEG-026",
+      "file": "voice/generated/SEG-026.mp3",
+      "durationSeconds": 26.377868,
+      "text": "Não é. Eu procurei no texto integral da norma. As palavras pacote e datagrama não aparecem nenhuma vez. A palavra frame, quadro em inglês, aparece oito vezes, e todas as oito estão dentro da palavra framework, que quer dizer arcabouço. E segmento aparece só como nome da operação de segmentar, nunca como nome da unidade de dados da camada quatro. O termo do O S I é um só: P D U."
+    },
+    {
+      "id": "SEG-027",
+      "file": "voice/generated/SEG-027.mp3",
+      "durationSeconds": 24.938231,
+      "text": "Isso não quer dizer que os nomes populares sejam errados. Eles são corretos, cada um dentro do escopo da norma que o define. Quadro vem dos padrões I E E E 802, os padrões de rede local. Datagrama vem da especificação do protocolo I P. Segmento vem da especificação do T C P. O erro não é usar os nomes: é dizer que eles vêm do O S I."
+    },
+    {
+      "id": "SEG-028",
+      "file": "voice/generated/SEG-028.mp3",
+      "durationSeconds": 26.052789,
+      "text": "O que leva à pergunta que todo aluno faz: se o modelo tem sete camadas, por que tanta gente desenha quatro? Porque a arquitetura da Internet é definida em outro documento, um padrão da I E T F conhecido como R F C 1122, e ele define quatro camadas: aplicação, transporte, internet e enlace. Repare: camada internet, não camada de rede."
+    },
+    {
+      "id": "SEG-029",
+      "file": "voice/generated/SEG-029.mp3",
+      "durationSeconds": 18.854603,
+      "text": "E o mapeamento não é um para um. O próprio R F C 1122 diz onde quebra: a camada de aplicação da Internet combina, essencialmente, as funções das duas camadas mais altas do O S I, apresentação e aplicação. E diz que a suíte da Internet não subdivide a camada de aplicação."
+    },
+    {
+      "id": "SEG-030",
+      "file": "voice/generated/SEG-030.mp3",
+      "durationSeconds": 23.219955,
+      "text": "E repare no que o documento não diz. Ele junta apresentação e aplicação, e para a sessão não dá mapeamento explícito: na lista de quatro, sessão não aparece como camada separada. Isso não quer dizer que nada cuide de sessão na prática. Quer dizer que a arquitetura da Internet não reserva uma camada para ela. Então afirmar que um protocolo é camada seis não tem apoio no documento. E desenhar sete caixas alinhadas com quatro ensina uma correspondência que não existe."
+    },
+    {
+      "id": "SEG-031",
+      "file": "voice/generated/SEG-031.mp3",
+      "durationSeconds": 16.857687,
+      "text": "E o próprio R F C 1122 é honesto sobre o limite do recurso: ele afirma que camadas estritas são um modelo imperfeito, e que protocolos de camadas diferentes interagem de formas complexas e sutis. Bússola, não lei da física."
+    },
+    {
+      "id": "SEG-032",
+      "file": "voice/generated/SEG-032.mp3",
+      "durationSeconds": 31.904218,
+      "text": "Dois casos rápidos, para você não esperar que tudo tenha um número. Nos padrões de rede local, a camada dois é dividida em duas sub-camadas, e isso não viola o modelo, porque o próprio O S I define sub-camada como subdivisão de uma camada. E o T L S, que coloca o S no HTTPS, não se declara camada cinco, seis nem sete: a especificação diz que o único requisito da camada de baixo é um fluxo confiável e em ordem. Descrever a posição funcional é correto. Cravar um número é inventar."
+    },
+    {
+      "id": "SEG-033",
+      "file": "voice/generated/SEG-033.mp3",
+      "durationSeconds": 28.792744,
+      "text": "E agora o motivo pelo qual isso paga o seu salário: diagnóstico. Mas eu preciso ser explícito antes de começar: o que vem agora não está na norma. Nenhuma norma manda diagnosticar em ordem nenhuma. Isto é método de campo, a forma que esta escola ensina. A lógica sai do modelo: se cada camada depende do serviço da de baixo, verificar de baixo para cima elimina as causas na ordem em que elas se sustentam."
+    },
+    {
+      "id": "SEG-034",
+      "file": "voice/generated/SEG-034.mp3",
+      "durationSeconds": 8.173424,
+      "text": "Camada um: o enlace existe eletricamente? Camada dois: os vizinhos diretos se veem? Camada três: existe caminho?"
+    },
+    {
+      "id": "SEG-035",
+      "file": "voice/generated/SEG-035.mp3",
+      "durationSeconds": 13.096054,
+      "text": "E na camada três está o erro mais comum na carreira de todo mundo. Existe caminho de ida e de volta. Falha de retorno se parece exatamente com falha de ida, e você passa a tarde investigando o lado errado. Sempre nas duas direções."
+    },
+    {
+      "id": "SEG-036",
+      "file": "voice/generated/SEG-036.mp3",
+      "durationSeconds": 9.845261,
+      "text": "Camada quatro: a porta do serviço aceita conexão? Da cinco à sete: o serviço responde certo? Nome resolvido, certificado válido, código de resposta."
+    },
+    {
+      "id": "SEG-037",
+      "file": "voice/generated/SEG-037.mp3",
+      "durationSeconds": 7.569705,
+      "text": "E o valor do método não é acertar a camada na primeira tentativa. É impedir que você investigue a aplicação quando o problema é um cabo."
+    },
+    {
+      "id": "SEG-038",
+      "file": "voice/generated/SEG-038.mp3",
+      "durationSeconds": 17.879365,
+      "text": "Recapitulando. O modelo O S I está em vigor, tem sete camadas, e descreve responsabilidade, não implementação. Cada camada oferece um serviço para cima e fala um protocolo com o seu par do outro lado. Encapsular é acrescentar informação de controle a uma carga que a camada não interpreta."
+    },
+    {
+      "id": "SEG-039",
+      "file": "voice/generated/SEG-039.mp3",
+      "durationSeconds": 19.504762,
+      "text": "Quadro, datagrama e segmento são nomes reais, mas vêm do I E E E, do I P e do T C P, não do O S I. A Internet real tem quatro camadas, e a camada de aplicação dela combina apresentação e aplicação do O S I. E o modelo é a sua ordem de investigação: de baixo para cima."
+    },
+    {
+      "id": "SEG-040",
+      "file": "voice/generated/SEG-040.mp3",
+      "durationSeconds": 18.761723,
+      "text": "Seu exercício, e ele é observável: escolha uma coisa que você usa na rede hoje e escreva, com as suas palavras, qual responsabilidade de cada uma das sete camadas está sendo exercida para aquilo funcionar. Onde não conseguir preencher, você encontrou o seu próximo assunto de estudo."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:www.itu.int)",
+      "WebFetch(domain:www.rfc-editor.org)",
+      "WebSearch",
+      "WebFetch(domain:www.ecma-international.org)",
+      "Bash(/usr/bin/python3 -c \"import Quartz; print\\('quartz ok'\\)\")",
+      "WebFetch(domain:www.ieee802.org)",
+      "Bash(curl -sL https://www.rfc-editor.org/rfc/rfc1122.txt -o rfc1122.txt)",
+      "Bash(brew install *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(npm --prefix remotion install)",
+      "Bash(node -e ' *)",
+      "Bash(chmod 600 .env.local)",
+      "Bash(git check-ignore *)",
+      "Bash(ffprobe -v error -show_entries format=duration,size,bit_rate -show_entries stream=index,codec_type,codec_name,width,height,r_frame_rate,channels,sample_rate -of default=noprint_wrappers=1 dist/fundamentos-01-modelo-osi.mp4)",
+      "Bash(node --check automation/elevenlabs/generate-voice.mjs)",
+      "Bash(node -e \"const m=require\\('./voice/audio-manifest.json'\\);const t=m.segments.reduce\\(\\(a,s\\)=>a+s.durationSeconds,0\\);const w=m.segments.reduce\\(\\(a,s\\)=>a+s.text.split\\(/\\\\s+/\\).length,0\\);console.log\\('segmentos',m.segments.length,'| total',\\(t/60\\).toFixed\\(2\\),'min |',\\(w/\\(t/60\\)\\).toFixed\\(0\\),'ppm'\\)\")",
+      "Bash(node -e \"const m=require\\('./voice/audio-manifest.json'\\);const t=m.segments.reduce\\(\\(a,s\\)=>a+s.durationSeconds,0\\);const w=m.segments.reduce\\(\\(a,s\\)=>a+s.text.split\\(/\\\\s+/\\).length,0\\);console.log\\('speed',m.speed,'| total',\\(t/60\\).toFixed\\(2\\),'min |',\\(w/\\(t/60\\)\\).toFixed\\(0\\),'ppm'\\)\")"
+    ]
+  }
+}

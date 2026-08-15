@@ -1,0 +1,58 @@
+<!doctype html><meta charset='utf-8'><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;background:#fff;color:#333333;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.slide{position:relative;width:1920px;height:1080px;padding:70px 120px 64px;
+  display:flex;flex-direction:column;overflow:hidden}
+.grid{position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(to right,rgba(51,51,51,.055) 1px,transparent 1px),
+                   linear-gradient(to bottom,rgba(51,51,51,.055) 1px,transparent 1px);
+  background-size:64px 64px}
+.eyebrow{display:flex;align-items:center;gap:16px;font-family:Menlo,'SF Mono',Monaco,monospace;
+  font-size:24px;letter-spacing:.22em;text-transform:uppercase;color:#333333;opacity:.85;
+  margin-bottom:18px;position:relative;z-index:2}
+.eyebrow::before{content:'';width:52px;height:6px;background:#771215;flex:none}
+h1{font-size:82px;line-height:1.02;letter-spacing:-.022em;font-weight:700;
+  margin-bottom:14px;position:relative;z-index:2}
+h1.sm{font-size:66px}
+.rule{width:132px;height:7px;background:#771215;margin-bottom:34px;position:relative;z-index:2}
+.body{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;min-height:0}
+.mono{font-family:Menlo,'SF Mono',Monaco,monospace}
+.note{font-size:30px;line-height:1.34;color:#333333;opacity:.86}
+/* blocos curtos em linha */
+.blocks{display:flex;gap:22px}
+.blk{flex:1;border:3px solid #333333;padding:20px 22px;font-size:30px;line-height:1.26}
+.blk.dark{background:#333333;color:#fff;border-color:#333333}
+/* comparacao duas colunas */
+.cmp{display:flex;gap:26px;flex:1;min-height:0}
+.col{flex:1;border:4px solid #333333;display:flex;flex-direction:column}
+.col.off{border-color:#B6B6B6;color:#B6B6B6;background:#F1F1F1;position:relative}
+.col.on{border-color:#771215}
+.col .hd{font-size:36px;font-weight:700;padding:18px 24px;border-bottom:4px solid currentColor}
+.col.on .hd{color:#771215;border-bottom-color:#771215}
+.col .bd{padding:24px;font-size:32px;line-height:1.32;flex:1}
+.strike{position:absolute;inset:0;width:100%;height:100%}
+/* tabela */
+table{width:100%;border-collapse:collapse;font-size:32px}
+th,td{border:3px solid #333333;padding:16px 22px;text-align:left}
+th{background:#333333;color:#fff;font-size:30px;letter-spacing:.02em}
+/* cartoes de resumo */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:3px solid #333333;padding:20px 22px}
+.card .n{font-family:Menlo,'SF Mono',Monaco,monospace;font-size:44px;color:#B6B6B6;
+  font-weight:700;line-height:1}
+.card .t{font-size:30px;font-weight:700;margin:8px 0 6px}
+.card .p{font-size:26px;line-height:1.28;opacity:.88}
+.band{background:#771215;color:#fff;padding:26px 30px;margin-top:20px}
+.band .k{font-family:Menlo,'SF Mono',Monaco,monospace;font-size:22px;letter-spacing:.22em;
+  opacity:.9;margin-bottom:8px}
+.band .t{font-size:44px;font-weight:700;margin-bottom:10px}
+.band .p{font-size:27px;line-height:1.32;opacity:.95}
+.callout{border:4px solid #771215;background:#fff;padding:20px 24px;font-size:29px;line-height:1.3}
+.callout .k{font-family:Menlo,'SF Mono',Monaco,monospace;font-size:21px;letter-spacing:.2em;
+  color:#771215;font-weight:700;margin-bottom:8px}
+.center{display:flex;align-items:center;justify-content:center;flex:1}
+.eq{font-family:Menlo,'SF Mono',Monaco,monospace;font-size:150px;font-weight:700;color:#771215;
+  letter-spacing:-.01em}
+</style><div class='slide'><div class=grid></div><div class='eyebrow'>As sete camadas</div><div class='body'><table><tr><td class='mono' style='width:80px;text-align:center'>7</td><td style='width:390px'><b>Aplicação</b></td><td>Único acesso do processo à rede.</td></tr><tr><td class='mono' style='width:80px;text-align:center'>6</td><td style='width:390px'><b>Apresentação</b></td><td>Representação comum da informação.</td></tr><tr><td class='mono' style='width:80px;text-align:center'>5</td><td style='width:390px'><b>Sessão</b></td><td>Organiza e sincroniza o diálogo.</td></tr><tr><td class='mono' style='width:80px;text-align:center'>4</td><td style='width:390px'><b>Transporte</b></td><td>Transferência transparente.</td></tr><tr><td class='mono' style='width:80px;text-align:center'>3</td><td style='width:390px'><b>Rede</b></td><td>Independência de roteamento.</td></tr><tr><td class='mono' style='width:80px;text-align:center'>2</td><td style='width:390px'><b>Enlace de dados</b></td><td>Vizinhos diretos e erros do meio.</td></tr><tr><td class='mono' style='width:80px;text-align:center'>1</td><td style='width:390px'><b>Física</b></td><td>Bits no meio físico.</td></tr></table></div></div>

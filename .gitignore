@@ -1,0 +1,12 @@
+.env.local
+.DS_Store
+__MACOSX/
+node_modules/
+remotion/node_modules/
+remotion/public/runtime/*
+!remotion/public/runtime/.gitkeep
+dist/*.mp4
+courses/**/voice/generated/
+courses/**/source/original/*.pptx
+courses/**/source/original/*.pdf
+*.log

@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Doctor",
+      "type": "shell",
+      "command": "npm run doctor",
+      "problemMatcher": []
+    },
+    {
+      "label": "Remotion Typecheck",
+      "type": "shell",
+      "command": "npm run video:validate",
+      "problemMatcher": []
+    }
+  ]
+}
