@@ -26,4 +26,6 @@ Esta versão foi refatorada a partir do projeto V3 para um fluxo **simples, huma
 11. QA audiovisual.
 12. MP4 final em `dist/`.
 
+Vídeos reutilizáveis de abertura e conclusão podem ser colocados em `assets/video/` e vinculados por aula com `video-config.json`. Consulte `docs/WORKFLOW.md` e `templates/video-config.example.json`.
+
 Comece por `docs/START-HERE.md`.
